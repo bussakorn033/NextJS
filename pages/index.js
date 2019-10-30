@@ -1,6 +1,11 @@
+import Link from 'next/link';
+import MainLayout from '../layouts/MainLayout';
 const HomePage = () => {
     return (
-        <div>Home Page</div>
+        <MainLayout>
+            HomePage
+        </MainLayout>
+        
     )
 }
 
